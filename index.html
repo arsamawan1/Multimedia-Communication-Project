@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="input.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./logic.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>MC PROJECT</title>
+  </head>
+  <body class="overflow-x-hidden" style=" background-image: url('../images/1.jpg'); 
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; ">
+    <script>
+      AOS.init();
+    </script>
+
+    <!---Hero Section--->
+    <section>
+      <div class="max-w-6xl px-6 pt-10  mx-auto">
+        <!---Menu/Nav--->
+        <nav class="flex flex-row justify-between items-center">
+          <!--Logo---->
+          <img src="./images/final-logo.png" alt="" class="w-48 md:w-72"/>
+          <!---Nav Items-->
+          <div
+            class="hidden h-10 md:flex md:space-x-8 md: font-bold font-alata text-white"
+          >
+            <div class="group">
+              <a href="#intro">Intro</a>
+              <div
+                class="group-hover:border-b group-hover:border-blue-50 mx-2"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#layers">Layers</a>
+              <div
+                class="group-hover:border-b group-hover:border-blue-50 mx-2"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#access">How to Access</a>
+              <div
+                class="group-hover:border-b group-hover:border-blue-50 mx-2"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#overview">Overview</a>
+              <div
+                class="group-hover:border-b group-hover:border-blue-50 mx-2"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#team">Our Team</a>
+              <div
+                class="group-hover:border-b group-hover:border-blue-50 mx-2"
+              ></div>
+            </div>
+          </div>
+          <!--Hamburger button-->
+          <div class="md:hidden">
+            <button
+              type="button"
+              id="menu-btn"
+              class="block open z-40 focus:outline-none hamburger md:hidden"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </nav>
+        <!--Content--->
+        <div id="intro" class="flex flex-col-reverse md:flex-row md:items-center mt-20 md:mt-5 md:justify-between">
+          <div class="md:w-2/3">
+            <div
+              class="mt-44 text-center md:text-left max-w-lg  border-2 border-white p-4 text-4xl md:p-10  md:text-5xl font-sans text-white my-div"
+            >
+            UNDISCOVERED INTERNET
+            </div >
+            <p  style="background: hsla(188, 56%, 40%, 0.55); backdrop-filter: blur(30px)" class="max-w-lg mb-36 mt-5 text-center md:text-left border-white p-6 text-sm leading-relaxed  font-sans text-white my-text">There are parts of the internet that are not widely known or accessible to the general public. These include private networks, password-protected websites, and other content that is not intended to be publicly available. For example, some companies or organizations may have private networks that are only accessible to employees or authorized individuals. There are also closed communities and forums that require an invitation or referral to join. Additionally, there are parts of the internet that are intentionally hidden, such as the dark web, which can only be accessed through special software and is known for being a hub for criminal activity. It's important to be cautious when exploring these parts of the internet and to take steps to protect your privacy and security.</p>
+          </div>
+          <div class="md:w-4/5">
+           <img src="./images/www-animate.svg" alt="" srcset="">
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Heading-->
+    <div id="layers" class="text-center mx-auto max-w-md mt-20 md:max-w-4xl border-2 border-white p-4 text-4xl md:p-10  md:text-6xl font-sans text-white my-div">
+        LAYERS OF THE WEB
+    </div >
+    <!--Heading-->
+
+    <!--Features Section---->
+    <section id="features"  data-aos="fade-up"
+    data-aos-duration="1000">
+      <div class="relative px-6 md:px-0  py-32 max-w-6xl mx-auto " data-aos="flip-up" >
+        <!--Image-->
+        <div style="background: hsla(188, 56%, 40%, 0); backdrop-filter: blur(30px)" class="md:w-3/5">
+          <img src="./images/2-removebg.png" alt="" class="my-img " data-aos="zoom-in-right" />
+        </div>
+        <!--Content-->
+        <div class="text-white text-center md:h-[26.25rem] md:text-left md:bg-white md:absolute md:top-72 md:right-0 md:bottom-0 p-7 md:pl-14 md:p-10 " data-aos="zoom-in-left"  style="background: hsla(188, 56%, 40%, 0.55); backdrop-filter: blur(30px)">
+          <h5 class="max-w-lg mt-3 mb-6  text-4xl md:text-5xl ">
+            SURFACE WEB
+          </h5>
+          <p class="max-w-md text-sm ">
+            The surface web refers to the portion of the World Wide Web that is indexed and accessible through standard search engines like Google, Bing, Yahoo, and others. This includes websites that are publicly available and can be accessed through standard web browsers using the http or https protocol. In other words, the surface web is the part of the internet that most people are familiar with, and includes websites like social media platforms, online news outlets, e-commerce sites, and other web pages that are easily accessible to anyone with an internet connection. It's important to note that the surface web represents only a small fraction of the internet as a whole. The majority of the internet is made up of the deep web and the dark web, which are not indexed by search engines and are only accessible through specialized software or authentication protocols.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Content Section-->
+    <section>
+      <!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto " data-aos="zoom-out-down">
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 text-gray-800">
+    <!-- Jumbotron -->
+    <div class="container mx-auto xl:px-32 text-center lg:text-left">
+      <div class="grid lg:grid-cols-2 flex items-center">
+        <div class=" mb-12 lg:mb-0">
+          <div class="text-white block shadow-lg px-6 py-12 md:px-12 lg:-mr-14"
+          style="background: hsla(188, 56%, 40%, 0.55); backdrop-filter: blur(30px)" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <h2 class="max-w-lg mt-3 mb-6  text-4xl md:text-5xl ">DEEP WEB</h2>
+            <p class=" mb-0">
+              The deep web is the part of the internet that is not indexed by search engines and cannot be accessed through regular web browsers. This includes private networks, password-protected websites, and other content that is not intended to be publicly available. While some of the content on the deep web is harmless, there is also a lot of illegal and dangerous content, such as black markets, hacking forums, and other criminal activity. It's important to be cautious when exploring the deep web and to take steps to protect your privacy and security.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <img src="./images/24.png" class="w-full h-[36rem] shadow-lg"
+            alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
+<!-- Container for demo purpose -->
+    </section>
+    <!--content section end-->
+
+
+    <!--Card 03-->
+    <!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 mx-auto">
+    <style>
+      @media (min-width: 992px) {
+        #cta-img-nml-50 {
+          margin-left: 50px;
+        }
+      }
+    </style>
+
+    <div class="flex md:justify-center flex-wrap ">
+      <div data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" class="grow-0 shrink-0 basis-auto w-full lg:w-2/5 mb-12 lg:mb-0">
+        <div class="flex lg:py-12">
+          <img src="./images/dark-web.png" class="w-full  shadow-lg"
+            id="cta-img-nml-50" style="z-index: 10" alt="" />
+        </div>
+      </div>
+
+      <div data-aos="zoom-out-down" class="grow-0 shrink-0 basis-auto w-full lg:w-6/12">
+        <div
+        style="background: hsla(188, 56%, 40%, 0.55); backdrop-filter: blur(30px)"
+          class= "h-full  p-6 lg:pl-12 text-white flex items-center text-center lg:text-left">
+          <div class="lg:pl-12">
+            <h2 class="max-w-lg mt-3 mb-6 text-4xl md:text-5xl ">DARK WEB</h2>
+
+            <p>
+              Duis sagittis, turpis in ullamcorper venenatis, ligula nibh porta dui, sit amet
+              rutrum enim massa in ante. Curabitur in justo at lorem laoreet ultricies. Nunc
+              ligula felis, sagittis eget nisi vitae, sodales vestibulum purus. Vestibulum nibh
+              ipsum, rhoncus vel sagittis nec, placerat vel justo. Duis faucibus sapien eget
+              tortor finibus, a eleifend lectus dictum. Cras tempor convallis magna id rhoncus.
+              Suspendisse potenti. Nam mattis faucibus imperdiet. Proin tempor lorem at neque
+              tempus aliquet. Phasellus at ex volutpat, varius arcu id, aliquam lectus.
+              Vestibulum mattis felis quis ex pharetra luctus. Etiam luctus sagittis massa, sed
+              iaculis est vehicula ut.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
+<!-- Container for demo purpose -->
+<!--Card 03-->
+
+
+
+    <!--content another blog section-->
+    <!-- Container for demo purpose -->
+<div class="container  my-24 px-6 md:px-36 md:py-10 mx-auto" style="background: hsla(188, 56%, 40%, 0); backdrop-filter: blur(20px)">
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 text-white">
+        <!--Heading-->
+        <div id="access" class="text-center mx-auto max-w-md mt-2 mb-12 md:max-w-4xl border-2 border-white p-4 text-4xl md:p-10  md:text-6xl font-sans text-white my-div">
+          HOW TO ACCESS
+      </div >
+      <!--Heading-->
+      
+    <div class="flex flex-wrap mb-12  text-center md:text-left">
+      <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pr-6 mb-6 lg:mb-0">
+        <div class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
+          style="background-position: 50%" data-mdb-ripple="true" data-mdb-ripple-color="light" data-aos="fade-down-right">
+          <img src="./images/tor2.png" class="w-full" alt="Louvre" />
+          <a href="#!">
+            <div
+              class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+              style="background-color: rgba(251, 251, 251, 0.2)"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pl-6" data-aos="fade-down-left">
+        <h3 class="text-2xl font-bold mb-2">How to access the deep web
+        </h3>
+
+        <p class="text-sm leading-6">
+            Although the deep web's information isn't indexed by regular search engines, it can often still be accessed.
+            Accessing content on the deep web is relatively safe, and most internet users do it all the time. Logging into Gmail or LinkedIn, or signing in to the Wall Street Journal are just a few examples of accessing data on a deep web site.
+            User accounts on the deep web contain a lot of personal information that criminals might value -- that's why access to much of the deep web is restricted.
+            The deep web, including the dark web, will never come to users. Spam and phishing attacks may originate from a dark web marketplace, but a user has to download something infected from that marketplace to release malware. An attack would not originate from the dark web site itself.
+            The dark web is intentionally hidden and requires specific technologies -- like the Tor browser and the Invisible Internet Project (I2P) network -- to gain access. Both tools have legitimate uses. Tor will protect your IP when visiting websites and I2P is a proxy network that can help journalists reporting from dangerous territories.
+            <br/>Users cannot access a dark web marketplace without the Tor browser. And while it's based on the Mozilla Firefox browser, Tor is not as well maintained and has page rendering issues.
+            There is one legitimate reason to peruse the dark web. With all the discussions related to hacking and exploit trading on the dark web, it is a great place to see where yet-unknown vulnerabilities are being discussed. By monitoring the dark web, users might gain the advantage of knowing where exploits are before they become widespread threats.        
+        </p>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap lg:flex-row-reverse mb-12" >
+      <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pl-6 mb-6 lg:mb-0" data-aos="zoom-out-left">
+        <div class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
+          style="background-position: 50%" data-mdb-ripple="true" data-mdb-ripple-color="light" >
+          <img src="./images/access-deep.jpg" class="w-full h-[26.25rem]"/>
+          <a href="#!">
+            <div
+              class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+              style="background-color: rgba(251, 251, 251, 0.2)"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 lg:pr-6  text-center md:text-left" data-aos="fade-down-right">
+        <h3 class="text-2xl font-bold mb-4 ">How to access the dark web</h3>
+
+        <p>
+          Accessing the dark web requires the use of an anonymizing browser called Tor. The Tor browser routes your web page requests through a series of proxy servers operated by thousands of volunteers around the globe, rendering your IP address unidentifiable and untraceable. Tor works like magic, but the result is an experience that’s like the dark web itself: unpredictable, unreliable and maddeningly slow.
+          There are parts of the internet that are not widely known or accessible to the general public. These include private networks, password-protected websites, and other content that is not intended to be publicly available. For example, some companies or organizations may have private networks that are only accessible to employees or authorized individuals. There are also closed communities and forums that require an invitation or referral to join. Additionally, there are parts of the internet that are intentionally hidden, such as the dark web, which can only be accessed through special software and is known for being a hub for criminal activity. It's important to be cautious when exploring these parts of the internet and to take steps to protect your privacy and security.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+</div>
+
+<!--Video Section-->
+<div>
+  <!--Heading-->
+    <div id="overview" class="text-center mx-auto max-w-md my-5 mb-20 md:max-w-4xl border-2 border-white p-4 text-4xl md:p-10  md:text-6xl font-sans text-white my-div">
+        OVERVIEW
+    </div >
+  <!--Heading-->
+  <video width="800" height="300" controls class="mx-auto px-10 md:px-0">
+    <source src="./images/GI9LE1GA47KEO25E.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+</div>
+
+<!--Video Section-->
+
+<!---Teams Section-->
+    <section id="creative" style="background: hsla(188, 56%, 40%, 0); backdrop-filter: blur(20px)">
+      <!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 py-10 text-white text-center" >
+    <!-- <h2 class="text-3xl font-bold mb-12">Meet the <u class="text-white">team</u></h2> -->
+    <!--Heading-->
+    <div id="team" class="text-center mx-auto max-w-md my-5 mb-20 md:max-w-4xl border-2 border-white p-4 text-4xl md:p-10  md:text-6xl font-sans text-white my-div">
+      OUR TEAM
+  </div >
+  <!--Heading-->
+    <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-x-6 lg:gap-xl-12">
+      <div class="mb-12 lg:mb-0">
+        <img class="rounded-lg shadow-lg mb-6 mx-auto" src="./images/bilal.jpg"
+          alt="avatar" style="width: 150px; height: 150px;" />
+        <h5 class="text-lg font-bold mb-4">Bilal Hassan</h5>
+        <p class="mb-6">Producer</p>
+      </div>
+      <div class="mb-12 lg:mb-0">
+        <img class="rounded-lg shadow-lg mb-6 mx-auto" src="./images/ahmed.jpg"
+          alt="avatar" style="width: 150px; height: 150px;"/>
+        <h5 class="text-lg font-bold mb-4">Syed Ahmed Shah</h5>
+        <p class="mb-6">Script and Content Writer</p>
+      </div>
+      <div class="mb-12 lg:mb-0">
+        <img class="rounded-lg shadow-lg mb-6 mx-auto" src="./images/arsam.jpeg"
+          alt="avatar" style="width: 150px; height: 150px;"/>
+        <h5 class="text-lg font-bold mb-4">Arsam Fayyaz</h5>
+        <p class="mb-6">Web Programmer <br> & Subject Matter Expert</p>
+      </div>
+      <div class="mb-12 md:mb-0">
+        <img class="rounded-lg shadow-lg mb-6 mx-auto" src="./images/zohaib.jpg"
+          alt="avatar" style="width: 150px; height: 150px;" />
+        <h5 class="text-lg font-bold mb-4">Zohaib Hassan</h5>
+        <p class="mb-6">Graphics and Video Editor</p>
+      </div>
+      <div class="mb-12 md:mb-0">
+        <img class="rounded-lg shadow-lg mb-6 mx-auto" src="./images/pawan.jpg"
+          alt="avatar" style="width: 150px; height: 150px;" />
+        <h5 class="text-lg font-bold mb-4">Pawan Kumar</h5>
+        <p class="mb-6">Audio Speciaist</p>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
+<!-- Container for demo purpose -->
+    </section>
+<!---Teams Section-->
+    <!---Footer---->
+    <footer class="bg-black">
+      <div
+        class="flex flex-col space-y-8 md:space-y-0 items-center justify-between md:flex-row py-10 px-6 md:px-0 max-w-6xl mx-auto mt-20 pb-16"
+      >
+        <div class="flex flex-col space-y-10 md:space-y-5">
+          <img src="./images/final-logo.png" alt="" class="w-44" />
+          <div
+            class="flex flex-col md:flex-row justify-center items-center md:space-x-5 md:text-sm space-y-5 md:space-y-0"
+          >
+            <div class="group h-10">
+              <a href="#intro" class="text-white font-alata">Intro </a>
+              <div class="group-hover:border-b hover:border-white mx-2"></div>
+            </div>
+
+            <div class="group h-10">
+              <a href="#layers" class="text-white font-alata">Layers </a>
+              <div class="group-hover:border-b hover:border-white mx-2"></div>
+            </div>
+
+            <div class="group h-10">
+              <a href="#access" class="text-white font-alata">How to Access </a>
+              <div class="group-hover:border-b hover:border-white mx-2"></div>
+            </div>
+
+            <div class="group h-10">
+              <a href="#overview" class="text-white font-alata">Overview </a>
+              <div class="group-hover:border-b hover:border-white mx-2"></div>
+            </div>
+
+            <div class="group h-10">
+              <a href="#team" class="text-white font-alata">Our Team</a>
+              <div class="group-hover:border-b hover:border-white mx-2"></div>
+            </div>
+          </div>
+        </div>
+        <!---Menu Icons & copyright-->
+        <div class="flex flex-col space-y-5">
+          <div
+            class="flex flex-row items-center md:justify-start justify-center space-x-5"
+          >
+            <img src="./images/icon-facebook.svg" alt="" />
+            <img src="./images/icon-twitter.svg" alt="" />
+            <img src="./images/icon-pinterest.svg" alt="" />
+            <img src="./images/icon-instagram.svg" alt="" />
+          </div>
+          <div>
+            <p class="text-gray-400">© 2022. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <script src="./node_modules/tw-elements/dist/js/index.min.js"></script> -->
+  </body>
+</html>
